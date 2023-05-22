@@ -6,7 +6,7 @@ namespace Angle\Utilities;
  * ADAPTED FROM: https://defuse.ca/generating-random-passwords.htm by Defuse Security <https://defuse.ca>
  * @package Angle\Common\Utilities\Random
  */
-class RandomUtility
+abstract class RandomUtility
 {
     /**
      * Generates an alphanumeric string

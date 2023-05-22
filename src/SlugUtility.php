@@ -2,7 +2,7 @@
 
 namespace Angle\Utilities;
 
-class SlugUtility
+abstract class SlugUtility
 {
     /** @const array */
     private static $rules = array(
