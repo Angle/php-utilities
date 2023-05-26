@@ -113,9 +113,7 @@ abstract class GitUtility
     {
         // we will first try to get an exact match
         try {
-            $t = self::currentReleaseTag($repoDirectory);
-
-            return $t . '*'; // if we are current, we will "star" it
+            return self::currentReleaseTag($repoDirectory);
         } catch (Exception $e) {
             // no problem, we most likely we not on a "current" release, so we will try another way
         }
